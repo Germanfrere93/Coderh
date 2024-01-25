@@ -14,7 +14,43 @@
 @media only screen and (max-width:480px) {
     body{
         background-color: yellow;
+        
     }
+
+    .main-nav {
+        display: block;
+        text-align: left;
+    }
+
+    .nav li {
+        display: block;
+        margin-bottom: 10px;
+        
+    }
+    .imagen-principal {
+        max-width: 320px;
+        height: auto;
+    }   
+    table {
+        justify-content: flex-start;
+    }
+    .map {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .ecoproductos-titulo {
+        font-size: 2em;
+    }
+    .ecoproductos-titulo-large {
+        font-size: 2em;
+    }
+    iframe {
+        width: 200px;
+        height: 150px;
+    }
+    
+    
 }
 
 /* tablet */
@@ -23,6 +59,19 @@
     body{
         background-color: red;
     }
+    table {
+        justify-content: flex-start;
+    }
+    .map {
+        max-width: 250px;
+        height: auto;
+    }
+    
+    iframe {
+        width: 200px;
+        height: 150px;
+    }
+    
 }
 
 html,body {
@@ -32,10 +81,13 @@ html,body {
 
 .nav ul {
     margin: 0;
+
 }
 
 .nav li {
     display: inline;
+    
+   
 }
 
 .nav a {
@@ -65,6 +117,8 @@ html,body {
     background-size: cover;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .ecoproductos-titulo {
@@ -72,6 +126,8 @@ html,body {
     margin: 0;
     font-size: 4em;
     font-weight: normal;
+    display:flex;
+    justify-content: center;
     
 }
 
@@ -101,6 +157,8 @@ html,body {
 }
 
 .main-footer {
+    display: flex;
+    justify-content: flex-end;
     background-color: green;
     color: white;
     padding: .25em 0;
@@ -109,7 +167,8 @@ html,body {
 }
 
 .main-footer-container {
-    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .main-footer.container ul {
@@ -127,8 +186,8 @@ html,body {
 }
 
 .imagen-principal {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .data-fiscal {
@@ -139,9 +198,10 @@ html,body {
 
 
 table {
+    display: flex;
+    justify-content: center;
     border-collapse: collapse;
-    width: 100%;
-    margin: 20px auto;
+    width: 100%;    
     
 }
 
@@ -160,9 +220,11 @@ tr:nth-child(even) {
 }
 
 .map {
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 200px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .horticola-page {
@@ -170,6 +232,11 @@ tr:nth-child(even) {
     justify-content: space-evenly;
     flex-wrap: wrap;    
     align-items: baseline;
+}
+
+.florales-page {
+    display: flex;
+    justify-content: center;
 }
 
 .horticola {
@@ -180,4 +247,18 @@ tr:nth-child(even) {
 
 .calendario {
     width:210px;
+}
+
+
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    margin:10px
+}
+
+.germinacion {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
