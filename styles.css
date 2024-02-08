@@ -12,11 +12,12 @@
 /* Mobile */
 
 @media only screen and (max-width:480px) {
+    /*
     body{
         background-color: yellow;
         
     }
-
+*/
     .main-nav {
         display: block;
         text-align: left;
@@ -56,9 +57,11 @@
 /* tablet */
 
 @media only screen and (min-width:481px) and (max-width: 950px) {
+    /*
     body{
         background-color: red;
     }
+    */
     table {
         justify-content: flex-start;
     }
@@ -128,6 +131,7 @@ html,body {
     font-weight: normal;
     display:flex;
     justify-content: center;
+    padding: 30px;
     
 }
 
@@ -234,11 +238,6 @@ tr:nth-child(even) {
     align-items: baseline;
 }
 
-.florales-page {
-    display: flex;
-    justify-content: center;
-}
-
 .horticola {
     margin: 5px;
     height: 401px;
@@ -249,7 +248,13 @@ tr:nth-child(even) {
     width:210px;
 }
 
+.calenflor {
+    width: 180px;
+}
 
+.calenchic {
+    width: 250px;
+}
 
 .youtube {
     display: flex;
