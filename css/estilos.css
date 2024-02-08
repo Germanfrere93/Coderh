@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(177, 172, 172, 0.329);
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(177, 172, 172, 0.329);
+}
+
+.main-header {
+  background-color: green;
+  background-size: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%; /* Set maximum width */
+}
+
+.ecoproductos-titulo {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.ecoproductos-titulo-large {
+  font-size: 3em;
+  color: green;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.section-header {
+  font-weight: normal;
+  color: #008000;
+  text-align: center;
+  font-size: 4em;
+}
+
+.imagen-distribuidor {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+  color: #ffffff;
+  padding: 0.25em 5%;
+}
+
+.main-footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.main-footer.container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.imagen-principal {
+  width: 400px;
+  height: 400px;
+  max-width: 100%; /* para hacerlo responsive dentro del conteiner */
+}
+
+.data-fiscal {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.map {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 200px;
+  padding: 10px;
+}
+
+.horticola-page {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.horticola {
+  margin: 5px;
+  height: 401px;
+  width: 210px;
+}
+
+.calendario {
+  width: 210px;
+}
+
+.calenflor {
+  width: 180px;
+}
+
+.calenchic {
+  width: 250px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.germinacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
